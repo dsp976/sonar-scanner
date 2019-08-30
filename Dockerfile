@@ -13,9 +13,9 @@ ENV GIT_REPO="https://github.com/SonarSource/sonar-scanning-examples.git" \
 
 ENV INSTALLER="https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.0.0.1744-linux.zip" \
     SONAR_HOME="/opt/sonar-scanner" \
-    SONAR_HOST="http://10.105.199.247:9000" \
+    SONAR_HOST="http://10.111.188.35:9000" \
     PROJECT_KEY=test_project \
-    SONAR_LOGIN=f3137338e574d2f3c6b621f68c09417a854abd69 \
+    SONAR_LOGIN=81e217fe2778926bda265861e0006af92055afbe \
     SRC="/tmp/sonar-scanning-examples/sonarqube-scanner/src/python" 
 
 ENV PATH=$SONAR_HOME/bin:$PATH
