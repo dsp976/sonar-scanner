@@ -9,5 +9,5 @@ do
 	  -Dsonar.sources=$SRC \
 	  -Dsonar.host.url=$SONAR_HOST \
 	  -Dsonar.login=$SONAR_LOGIN
-	sleep 300
+	sleep 3600
 done
